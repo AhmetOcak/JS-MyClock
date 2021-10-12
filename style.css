@@ -1,0 +1,36 @@
+body {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background: black;
+    border: 2px solid #d4fa00;
+    width: 630px;
+    height: 180px;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .number {
+    font-size: 180px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    color: #d4fa00;
+}
+
+.container .two-dots {
+    font-size: 150px;
+    color: #d4fa00;
+}
+
+#main-footer p {
+    color: #d4fa00;
+    margin-top: 400px;
+}
